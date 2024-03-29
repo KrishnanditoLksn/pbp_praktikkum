@@ -75,7 +75,8 @@ submitButton.addEventListener('click', (ev) => {
                                 let choice = choices[j - 1]
                                 alert(`Pilihan yang dipilih: ${choices[j - 1]}`);
                                 // console.log("Hallo, nama saya , saya mempunyai sejumlah <Jml> pilihan yaitu <Teks Pilihan 1>, <Teks Pilihan 2>, <Teks Pilihan dst>, dan saya memilih <Teks Pilihan >\n"))
-                                console.log(`Halo , nama saya ${name} , , saya mempunyai sejumlah ${choices.length} pilihan yaitu ${choices.toString()} dan saya memilih ${choice}`)
+                                alert(`Halo , nama saya ${name} , , saya mempunyai sejumlah ${choices.length} pilihan yaitu ${choices.toString()} dan saya memilih ${choice}`)
+                                okButton.disabled = true
                             });
                         }
                     });
